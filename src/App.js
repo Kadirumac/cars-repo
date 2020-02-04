@@ -2,14 +2,15 @@ import React from 'react';
 
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-     <p>Hello Alle</p>
-      </header>
-    </div>
-  );
+const App = ()=>{
+
+  
+
+  return(
+      <div>
+  <p>Hello</p>
+   </div>
+  )
 }
 
 export default App;
