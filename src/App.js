@@ -18,7 +18,7 @@ function Axios() {
   const [{ data, loading, error }, refetch] = useAxios(
     'https://cars-demo-app.herokuapp.com/cars '
   )
- 
+    console.log(data)
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error!</p>
   
@@ -26,8 +26,8 @@ function Axios() {
     <div>
 
         {data.map(e => (<div>
-             
-              <p style={myP}>{e}</p>
+              <img src={e.imgUrl}></img>
+              <p style={myP}>{e.brand}</p>
           </div>))}
       <button onClick={refetch}>refetch</button>
     </div>
