@@ -3,7 +3,11 @@ import './App.css';
 import React, { Component, useState,useEffect } from 'react';
 import axios from 'axios';
 import useAxios from 'axios-hooks';
+<<<<<<< HEAD
 import HeaderSider from './components/HeaderSider';
+=======
+
+>>>>>>> 7f43b3bddf61eb4b5cc5ff9bcb61ab8b2f9532c3
 
  const style = {
   auto:{
@@ -59,7 +63,11 @@ const App = ()=>{
 
     return(
         <div>
+<<<<<<< HEAD
       <HeaderSider/>
+=======
+      
+>>>>>>> 7f43b3bddf61eb4b5cc5ff9bcb61ab8b2f9532c3
      <Axios/>
      </div>
     )
